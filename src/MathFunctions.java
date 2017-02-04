@@ -1,6 +1,18 @@
 
 public class MathFunctions {
 
+	public boolean isPrime(int number) {
+		if (number == 1) {
+			return false;
+		}
+		for (int i = 2; i < number; i++) {
+			if (number % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
 	public void printNumberTriangle(int rows) {
 		for (int i = 1; i <= rows; i++) {
 			printRow(i);
@@ -50,5 +62,10 @@ public class MathFunctions {
 			System.out.print(currentNumber + " ");
 		}
 
+	}
+
+	public int sum(int i, int j) {
+		// TODO Auto-generated method stub
+		return i + j;
 	}
 }
