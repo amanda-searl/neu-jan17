@@ -1,5 +1,7 @@
 package encapsulation;
 
+
+
 public class Person {
 	public void getGroceriesTraditionalWay() {
 		System.out.println("Open the door in the home");
@@ -14,6 +16,8 @@ public class Person {
 		System.out.println("Get into car");
 		System.out.println("Drive to home");
 		System.out.println("Take the Groceries into home");
+		class5.Mango m = new class5.Mango();
+		//m.flavor = "Sweet";
 	}
 
 	public void getGroceries() {
@@ -27,42 +31,42 @@ public class Person {
 
 	private void returnToHome() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void payForGroceries() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void shopForGroceries() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void findTheGroceryStore() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void getIntoCar() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void prepareForTravel() {
 		checkTheWeather();
 		putOnWarmClothesIfCold();
-		
+
 	}
 
 	private void putOnWarmClothesIfCold() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	private void checkTheWeather() {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
